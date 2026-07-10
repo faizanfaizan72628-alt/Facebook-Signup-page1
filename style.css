@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#e9ebee;
+}
+
+/* Header */
+
+.header{
+    background:#3b5998;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+.header h1{
+    font-size:42px;
+}
+
+.login input{
+    padding:6px;
+}
+
+.login button{
+    padding:6px 12px;
+    background:#4267B2;
+    color:white;
+    border:none;
+}
+
+/* Main */
+
+.main{
+    display:flex;
+    justify-content:space-around;
+    padding:40px;
+}
+
+.left{
+    width:45%;
+}
+
+.left h2{
+    color:#3b5998;
+    margin-bottom:20px;
+}
+
+.left img{
+    width:100%;
+}
+
+/* Right */
+
+.right{
+    width:35%;
+}
+
+.right h2{
+    font-size:35px;
+}
+
+.right p{
+    margin-bottom:20px;
+}
+
+.right input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+.right select{
+    padding:8px;
+}
+
+.signup{
+    background:green;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    font-size:18px;
+    margin-top:15px;
+    cursor:pointer;
+}
